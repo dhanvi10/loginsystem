@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(221, 162, 228);
+    padding: 0 10px;
+
+}
+.container{
+    border: 2px solid black;
+    max-width: 500px;
+    width: 100%;
+    background-color: white;
+    margin: 20px auto;
+   padding: 30px;
+   box-shadow: 1px 1px 2px rgb(145, 138, 145);
+}
+.container .title{
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: 700;
+    color: blueviolet;
+    text-align: center;
+}
+.container .form .input_field{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+}
+.container .form .input_field label{
+    width: 200px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.container .form .input_field .input{
+        width: 100%;
+        outline: none;
+        border: 1px solid rgb(71, 17, 54) ;
+        font-size: 22px;
+        padding: 8px 10px;
+        border-radius: 5px;
+        transition: all 0.5 ease;
+}
+.input_field_terms p{
+        margin-left: 30px;
+        margin-top: -20px;
+        font-size: 18px;
+}
+.btn{
+     font-size: 20px;
+     font-weight: 200px;
+     padding: 15px 30px;
+     color: rgb(12, 10, 10);
+     background-color: rgb(230, 136, 227);
+     border-radius: 4px;
+     cursor: pointer;
+     border: none;
+     outline: none;
+     transition: 0.2s;
+     margin-top: 20px;
+}
